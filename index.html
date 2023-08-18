@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shilpa Ajnale</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<h1 class="logo"></h1>
+		<ul class="navigations">
+			<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+			<li><a href="resume.html"><i class="fa fa-id-card-o" aria-hidden="true"></i>Resume</a></li>
+			<li><a href="about.html"><i class="fa fa-question-circle-o" aria-hidden="true"></i>About</a></li>
+			<li><a href="contact.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Contact</a></li>
+		</ul>
+		<img src="images/menu.png" class="menu-btn">
+	</nav>
+	<header>
+		<div class="bg">
+			<h2>Hello..! , I'm Shilpa</h2>
+			<h1><font color="#00ff00">&lt;Web Designer/&gt;</font></h1>
+			<h5>Engaging for Experience</h5>
+			<div class="socialicon">
+				<ul>
+					<li><a href="mailto:shilpaajnale@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					<li id="linkedin"><a href="https://www.linkedin.com/in/shilpa-ajnale-3102a5223/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					</li>
+					<li id="insta"><a href="https://www.instagram.com/infinitesoul_20/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li id="whatsapp"><a href="https://wa.me/+919067074478"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+					<li id="git"><a href="https://github.com/ShilpaAjnale/"><i class="fa fa-github" aria-hidden="true"></i></a></li>	
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			Designed by Shilpa_Ajnale
+		</div>
+	</header>
+	<script>
+		let menubtn=document.querySelector('.menu-btn');
+		let navlink=document.querySelector('.navigations');
+		menubtn.addEventListener('click',()=>{navlink.classList.toggle('mobile-menu')});
+	</script>
+</body>
+</html>
